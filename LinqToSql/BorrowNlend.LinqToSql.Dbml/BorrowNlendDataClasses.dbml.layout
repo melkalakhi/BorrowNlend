@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="BorrowNlendDataClasses">
+  <DataContextMoniker Name="/BorrowNlendDataClassesDataContext" />
+  <nestedChildShapes>
+    <classShape Id="7fa8c82c-5f6f-47e6-90b0-1fb539f962e6" absoluteBounds="1.75, 1.5, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/BorrowNlendDataClassesDataContext/Operation" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c005eba6-bcec-4853-afa0-1e9640d4a495" absoluteBounds="1.7650000000000001, 1.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="53b938bd-13e9-4163-94b6-51e93f5223fe" absoluteBounds="4.75, 1.5, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/BorrowNlendDataClassesDataContext/Person" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4f918acb-78e6-4f27-a4bd-01728380d925" absoluteBounds="4.765, 1.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(4.75 : 2.28929768880208); (3.75 : 2.28929768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/BorrowNlendDataClassesDataContext/Person/Person_Operation" />
+      <nodes>
+        <classShapeMoniker Id="53b938bd-13e9-4163-94b6-51e93f5223fe" />
+        <classShapeMoniker Id="7fa8c82c-5f6f-47e6-90b0-1fb539f962e6" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
